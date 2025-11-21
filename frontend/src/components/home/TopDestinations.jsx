@@ -33,7 +33,7 @@ const TopDestinations = ({ destinations }) => {
                   <p className="text-gray-200 mb-4 line-clamp-2">{destination.description}</p>
                   <div className="flex items-center justify-between">
                     <span className="bg-blue-600 px-3 py-1 rounded-full text-sm">
-                      {destination.categories.length} Places
+                      {destination.categories.length} Place
                     </span>
                     <span className="text-yellow-400">⭐ {destination.rating}</span>
                   </div>
